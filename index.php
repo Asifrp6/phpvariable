@@ -8,6 +8,9 @@
 <body>
     <?php 
 
+$cell="01771006007";
+$name="Md. Asifur Rahman";
+
     // object
 
 class phone{
@@ -23,6 +26,30 @@ class phone{
 
 $iphon= new phone;
 $iphon -> phnmodel('Iphone 15 pro max');
+
+
+
+
+
+function name(){
+    global $sell;
+    echo $sell;
+}
+
+
+
+
+function phone(){
+    echo"01771006007";
+}
+
+function office(){
+    echo $GLOBALS['name'];
+}
+
+name();
+phone();
+office();
 
 ?>
 </body>
